@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   <bean id="pat" class="com.org.Patient">
+   <property name="patientId" value="2424"></property>
+   <property name="patientName" value="Saanvi"></property>
+   <property name="patientWeight" value="60"></property>
+   <property name="patientHeight" value="5'6"></property> 
+   
+   
+   </bean>
+   
+   
+   
+   
+   
+   </beans>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   <bean id="coh" class="com.org.Cohorts">
+   <property name="CohortId" value="2424"></property>
+   <property name="CohortName" value="Saanvi"></property>
+   <property name="emailId" value="saanvi24@gmail.com"></property>
+   <property name="contactNo" value="3956988625"></property> 
+   </bean>
+   
+    <bean id="dxc" class="com.org.DXC">
+   <property name="EmployeeId" value="2424"></property>
+   <property name="EmploymentType" value="Software"></property>
+   <property name="year" value="2020"></property>
+   <property name="cohort" value="cohort"></property> 
+   </bean>
+   
+   
+   </beans>
+   
